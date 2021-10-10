@@ -12,4 +12,4 @@ const i18n = withNextra({
 
 const video = withVideos()
 
-module.exports = withPlugins([i18n])
+module.exports = withPlugins([i18n, video])
